@@ -23,7 +23,6 @@ module.exports = {
     },
   },
 
-
   rules: {
     /* eslint-plugin-import */
     'import/extensions': [2, 'never'],
@@ -38,9 +37,11 @@ module.exports = {
     }],
 
     /* core */
-    'func-names': [2, 'as-needed'],
+    'func-names': 0,
     semi: [2, 'never'],
     'no-unexpected-multiline': 2,
+    'no-param-reassign': 0,
+    'prefer-arrow-callback': 0,
   },
 
   overrides: [
@@ -52,7 +53,7 @@ module.exports = {
       },
       rules: {
         /* https://github.com/eslint/eslint/issues/2102 */
-        'no-unused-expressions': false,
+        'no-unused-expressions': 0,
       },
     },
   ],

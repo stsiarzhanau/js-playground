@@ -1,13 +1,11 @@
-import 'babel-polyfill'
+import '@babel/polyfill'
 import chai from 'chai'
-import chaiAsPromised from 'chai-as-promised'
 import sinon from 'sinon'
 import sinonChai from 'sinon-chai'
+import chaiAsPromised from 'chai-as-promised'
 
-import './jsdomSetup'
-
-chai.use(chaiAsPromised)
 chai.use(sinonChai)
+chai.use(chaiAsPromised)
 
 global.expect = chai.expect
 global.sinon = sinon

@@ -18,17 +18,17 @@
     ]
   },
   "dependencies": {
-    "babel-polyfill": "6.26.0"
+    "@babel/polyfill": "7.0.0-beta.54"
   },
   "devDependencies": {
-    "babel-core": "6.26.3",
-    "babel-eslint": "8.2.5",
-    "babel-loader": "7.1.5",
-    "babel-preset-env": "1.7.0",
-    "babel-preset-stage-0": "6.24.1",
+    "@babel/core": "7.0.0-beta.54",
+    "babel-eslint": "9.0.0-beta.3",
+    "babel-loader": "8.0.0-beta.4",
+    "@babel/preset-env": "7.0.0-beta.54",
+    "@babel/preset-stage-0": "7.0.0-beta.54",
     "chai": "4.1.2",
     "chai-as-promised": "7.1.1",
-    "eslint": "4.19.1",
+    "eslint": "5.2.0",
     "eslint-config-airbnb-base": "13.0.0",
     "eslint-import-resolver-webpack": "0.10.1",
     "eslint-plugin-import": "2.13.0",
@@ -37,9 +37,9 @@
     "lint-staged": "7.2.0",
     "mocha": "5.2.0",
     "mocha-webpack": "2.0.0-beta.0",
-    "sinon": "6.1.2",
+    "sinon": "6.1.4",
     "sinon-chai": "3.2.0",
-    "webpack": "4.15.1",
+    "webpack": "4.16.2",
     "webpack-node-externals": "1.7.2"
   },
   "repository": {
